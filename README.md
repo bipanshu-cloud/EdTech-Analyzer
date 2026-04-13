@@ -114,6 +114,4 @@ Select a pre-built insight or type your own question:
 
 ---
 
-## 📝 License
-MIT
 
