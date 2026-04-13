@@ -1,0 +1,103 @@
+{
+  "total_users": 750,
+  "converted": 270,
+  "dropped": 480,
+  "conversion_rate": 36.0,
+  "funnel": {
+    "Signed Up": 750,
+    "Completed Onboarding": 458,
+    "Engaged (3+ sessions)": 409,
+    "Converted": 270
+  },
+  "group_means": {
+    "dropped": {
+      "sessions": 2.13,
+      "time_spent_mins": 22.04,
+      "lessons_completed": 2.54,
+      "last_active_day": 14.59
+    },
+    "converted": {
+      "sessions": 11.9,
+      "time_spent_mins": 262.21,
+      "lessons_completed": 11.59,
+      "last_active_day": 7.36
+    }
+  },
+  "onboarding_conversion": {
+    "not_completed": 0.034,
+    "completed": 0.568
+  },
+  "device_conversion": {
+    "desktop": 0.359,
+    "mobile": 0.376,
+    "tablet": 0.294
+  },
+  "notification_conversion": {
+    "disabled": 0.148,
+    "enabled": 0.539
+  },
+  "category_performance": [
+    {
+      "course_category": "coding",
+      "users": 241,
+      "conversion_rate": 33.2
+    },
+    {
+      "course_category": "data_science",
+      "users": 196,
+      "conversion_rate": 38.8
+    },
+    {
+      "course_category": "design",
+      "users": 157,
+      "conversion_rate": 34.4
+    },
+    {
+      "course_category": "language",
+      "users": 54,
+      "conversion_rate": 42.6
+    },
+    {
+      "course_category": "marketing",
+      "users": 102,
+      "conversion_rate": 36.3
+    }
+  ],
+  "segments": [
+    {
+      "segment": "Ghost (1 session)",
+      "count": 257,
+      "conversion_rate": 0.0
+    },
+    {
+      "segment": "Low (2-3)",
+      "count": 149,
+      "conversion_rate": 4.0
+    },
+    {
+      "segment": "Medium (4-7)",
+      "count": 125,
+      "conversion_rate": 40.8
+    },
+    {
+      "segment": "High (8+)",
+      "count": 219,
+      "conversion_rate": 97.3
+    }
+  ],
+  "last_active_dist": {
+    "dropped_avg": 14.6,
+    "converted_avg": 7.4
+  },
+  "key_stats_for_llm": {
+    "conversion_rate": 36.0,
+    "onboarding_lift_pct": 53.4,
+    "notification_lift_pct": 39.1,
+    "session_gap": 9.8,
+    "funnel_onboard_dropoff_pct": 38.9,
+    "funnel_engage_dropoff_pct": 10.7,
+    "top_category": "language",
+    "worst_category": "coding",
+    "ghost_users_pct": 34.3
+  }
+}
